@@ -1,4 +1,4 @@
-A crud application using Typescript | window.localStorage. without having a server.
+A web application using Typescript | window.localStorage. without having a server.
 
 LANGUAGES:
 1. HTML,
