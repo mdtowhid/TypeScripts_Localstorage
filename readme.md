@@ -28,7 +28,7 @@ Please install following tools to run this project
 3. An Editor(VS Code).
 
 also you can install LIVE server to run this project.
-if live server install press (on window OS in VS code hold ctr+shiht+p) search for live server select and clicK.
+if live server installed press (on window OS in VS code hold ctr+shiht+p) search for live server select and clicK.
 
 
 after installing the tools
