@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Local Storage TS</title>
+  </head>
+  <body>
+    <div id="formWrapper">
+      <div id="" class="container">
+        <div class="form-wrapper">
+          <form id="form">
+            <input type="hidden" name="id" id="id" value="0" />
+            <div id="header">
+              <h3>Write a new blog</h3>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3"></div>
+              <div class="col-md-9" id="errors"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3">
+                <label for="title">Title</label>
+              </div>
+              <div class="col-md-9">
+                <input
+                  required
+                  type="text"
+                  id="title"
+                  placeholder="title"
+                  autofocus
+                />
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3">
+                <label for="body">Description</label>
+              </div>
+              <div class="col-md-9">
+                <textarea
+                  required
+                  name="body"
+                  id="body"
+                  cols="10"
+                  rows="3"
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3">
+                <label for="blogCategories">Blog Category</label>
+              </div>
+              <div class="col-md-9">
+                <select id="categories">
+                  <option value="none">Select blog category</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="row">
+              <input
+                type="submit"
+                class="submit-btn"
+                value="store"
+                id="submitBtn"
+                disabled
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="searchDivWrapper">
+      <input type="text" id="search" placeholder="search" />
+    </div>
+    <div id="render"></div>
+    <div id="backdrop"></div>
+    <div id="statusDiv"></div>
+
+    <footer>
+      <div>
+        <p>
+          <a href="https://web.facebook.com/webschoolsdev" target="_blank"
+            >&copy; Webschools 2020</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script type="module" src="../public/app.js"></script>
+  </body>
+</html>
